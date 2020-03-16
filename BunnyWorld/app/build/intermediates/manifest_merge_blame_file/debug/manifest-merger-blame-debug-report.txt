@@ -1,0 +1,96 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="cs108.stanford.edu.bunnyworldeditor"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:5:5-40:19
+12        android:allowBackup="true"
+12-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] /Users/fuyuwei/.gradle/caches/transforms-2/files-2.1/8f8ab13dc8f4e84e14a8bb3d9ac92bc4/core-1.0.1/AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:11:9-40
+21        <activity android:name="cs108.stanford.edu.bunnyworldeditor.LoadAdventure" />
+21-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:12:9-60
+21-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:12:19-48
+22        <activity android:name="cs108.stanford.edu.bunnyworldeditor.EditMain" />
+22-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:13:9-46
+22-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:13:19-43
+23        <activity android:name="cs108.stanford.edu.bunnyworldeditor.SaveEditGame" />
+23-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:14:9-50
+23-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:14:19-47
+24        <activity android:name="cs108.stanford.edu.bunnyworldeditor.AddShape" />
+24-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:15:9-46
+24-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:15:19-43
+25        <activity android:name="cs108.stanford.edu.bunnyworldeditor.AddPage" />
+25-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:16:9-45
+25-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:16:19-42
+26        <activity android:name="cs108.stanford.edu.bunnyworldeditor.GotoPage" />
+26-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:17:9-46
+26-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:17:19-43
+27        <activity android:name="cs108.stanford.edu.bunnyworldeditor.EditPage" />
+27-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:18:9-46
+27-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:18:19-43
+28        <activity android:name="cs108.stanford.edu.bunnyworldeditor.EditShape" />
+28-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:19:9-47
+28-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:19:19-44
+29        <activity android:name="cs108.stanford.edu.bunnyworldeditor.EditScript" />
+29-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:20:9-48
+29-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:20:19-45
+30        <activity
+30-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:21:9-23:53
+31            android:name="cs108.stanford.edu.bunnyworldeditor.GameActivity"
+31-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:22:13-41
+32            android:screenOrientation="landscape" />
+32-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:23:13-50
+33        <activity
+33-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:24:9-26:53
+34            android:name="cs108.stanford.edu.bunnyworldeditor.DrawActivity"
+34-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:25:13-41
+35            android:screenOrientation="landscape" />
+35-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:26:13-50
+36        <activity
+36-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:27:9-35:20
+37            android:name="cs108.stanford.edu.bunnyworldeditor.MainActivity"
+37-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:28:13-41
+38            android:screenOrientation="landscape" >
+38-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:29:13-50
+39            <intent-filter>
+39-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:30:13-34:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:31:17-69
+40-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:31:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:33:17-77
+42-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:33:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <meta-data
+46-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:37:9-39:57
+47            android:name="preloaded_fonts"
+47-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:38:13-43
+48            android:resource="@array/preloaded_fonts" />
+48-->/Users/fuyuwei/Downloads/CS108/HW/Editor_1409/app/src/main/AndroidManifest.xml:39:13-54
+49    </application>
+50
+51</manifest>
